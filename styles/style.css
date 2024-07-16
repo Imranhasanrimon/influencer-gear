@@ -33,12 +33,17 @@ header nav ul {
 }
 
 header nav ul li a,
-.description {
+.description,
+.menu-icon {
     text-decoration: none;
     color: rgb(58, 58, 58);
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
+}
+
+.menu-icon {
+    display: none;
 }
 
 /* content area  */
@@ -85,4 +90,72 @@ header .sponsors {
     justify-content: space-between;
     align-items: center;
     padding-top: 105px;
+}
+
+/* Header section ends here  */
+
+
+
+/* responsive area  */
+
+
+/* for small device  */
+@media screen and (max-width:776px) {
+    header {
+        max-width: 100%;
+        margin: 0 auto;
+        border: 1px solid;
+        padding: 30px 20px;
+    }
+
+    nav ul li:not(.cart) {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .content {
+        width: 100%;
+        flex-direction: column-reverse;
+        margin-top: 30px;
+    }
+
+    .text-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .text-content h1 {
+        color: rgb(58, 58, 58);
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 42px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+
+    .image-content img {
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    header .sponsors img {
+        width: 15%;
+    }
+
+    header .sponsors {
+        width: 100%;
+        padding-top: 50px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    /* header area ends here  */
+
+
+
 }
