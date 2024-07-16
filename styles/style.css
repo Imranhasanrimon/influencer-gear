@@ -171,7 +171,6 @@ main .main-title {
     header {
         max-width: 100%;
         margin: 0 auto;
-        border: 1px solid;
         padding: 30px 20px;
     }
 
@@ -222,6 +221,13 @@ main .main-title {
     }
 
     /* header area ends here  */
+
+    /* main area starts here  */
+    main .collections {
+        grid-template-columns: repeat(1, 1fr);
+
+        justify-items: center;
+    }
 
 
 
