@@ -172,7 +172,7 @@ main .main-title {
 }
 
 .featured-section .text-container {
-    width: 610px;
+    max-width: 610px;
 }
 
 .featured-section .text-container h1 {
@@ -259,6 +259,15 @@ main .main-title {
         justify-items: center;
     }
 
+    /* .featured-section  */
+    .featured-section {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .featured-section .text-container {
+        padding: 50px 20px;
+    }
 
 
 }
