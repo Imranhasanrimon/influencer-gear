@@ -65,7 +65,7 @@ header nav ul li a,
     line-height: 70px;
 }
 
-.text-content .btn {
+.btn {
     margin-top: 16px;
     padding: 10px 24px;
     border-radius: 41px;
@@ -162,6 +162,36 @@ main .main-title {
     line-height: 143%;
 }
 
+/* featured-section  */
+.featured-section {
+    max-width: 1110px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured-section .text-container {
+    width: 610px;
+}
+
+.featured-section .text-container h1 {
+    color: rgb(10, 8, 38);
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.featured-section .text-container p {
+    color: rgb(108, 108, 108);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.featured-section .text-container .btn {
+    border-radius: 0;
+}
 
 /* responsive area  */
 
