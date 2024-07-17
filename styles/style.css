@@ -193,6 +193,21 @@ main .main-title {
     border-radius: 0;
 }
 
+/* footer area  */
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 80px 0;
+}
+
+footer .icons i {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    margin-top: 20px;
+}
+
 /* responsive area  */
 
 
@@ -263,10 +278,16 @@ main .main-title {
     .featured-section {
         flex-direction: column-reverse;
         text-align: center;
+        padding: 50px 20px;
+
+    }
+
+    .featured-section img {
+        width: 100%;
     }
 
     .featured-section .text-container {
-        padding: 50px 20px;
+        margin-bottom: 50px;
     }
 
 
